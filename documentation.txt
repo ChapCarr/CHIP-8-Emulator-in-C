@@ -1,0 +1,8 @@
+Helpful Docs:
+
+    1. documentation: http://devernay.free.fr/hacks/chip8/C8TECH10.HTM#Dxy0
+use this to read opcodes and get their functions. 
+
+    2. Tobias V. Langhoff Blog: https://tobiasvl.github.io/blog/write-a-chip-8-emulator/
+Helpful to read through to get rounded view around what the architecture will look
+like also has a very help section surronding the DXYN opocode. 
