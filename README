@@ -1,24 +1,20 @@
 Chip-8 emulator by Chapell Carr
 
 How to run: 
-
-    COMPILE:
-        - gcc -o a.out main.c chip8.c -I /opt/homebrew/include/SDL2 -L /opt/homebrew/lib -l SDL2
-
+        make (currently you will need to change the file path for SDL2 for your system) 
+        ./a.out <rom_name.ch8>
 
 
 TODO:
-    - stack *** just added a stack still need to test ***
-    - implement stack related opcodes
+
+    - keypad
     - timer / delays
     - sound 
+    - opcode final few opcodes
+    
                
 
 Test:
     - Chip 8 splash screen test: passed
     - IBM Logo: passed
-    - Corax+: 
-        - 3x, 4x, 5x, 7x, 9x, 1x GOOD
-        - 2nnn failed. 
-        - 
-
+    - Corax+: semi passing
